@@ -76,23 +76,23 @@ export default function About() {
         </p>
   
         {/* Tiers */}
-        <div className="mt-14 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-x-8 text-center ">
+        <div className="mt-14 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-x-8  ">
           {pricing.tiers.map((tier) => (
             <div
               key={tier.title}
               className="relative p-8 bg-white border border-sky-500 rounded-2xl shadow-lg flex flex-col"
             >
               <div className="flex-1">
-                <h3 className="text-xl font-semibold text-gray-900">{tier.icon}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 ">{tier.icon}</h3>
                 {tier.mostPopular ? (
                   <p className="absolute top-0 py-1.5 px-4 bg-indigo-500 rounded-full text-xs font-semibold uppercase tracking-wide text-white transform -translate-y-1/2">
                     Most popular
                   </p>
                 ) : null}
-                <p className="mt-4   text-gray-900">
-                  <span className="text-5xl font-extrabold tracking-tight">{tier.title}</span>
+                <p className="mt-4  text-center text-gray-900">
+                  <span className="text-4xl font-extrabold tracking-tight ">{tier.title}</span>
                 </p>
-                <p className="mt-6 text-gray-500">{tier.description}</p>
+                <p className="mt-6 text-gray-500 text-center">{tier.description}</p>
   
                 {/* Feature list */}
                 <ul role="list" className="mt-6 space-y-6">
