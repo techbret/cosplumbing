@@ -63,7 +63,7 @@ export default function Home() {
                 </h1>
                 <h1 className="text-4xl font-extrabold text-sky-400 tracking-tight sm:text-5xl">No problem.</h1>
                 <p className="mt-6 text-xl text-gray-500">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                After Providing more than 15 years of plumbing services to the Colorado Springs area, with a 5 star Google Rating we're proud to say COS Plumbing is your trusted plumbing company. 
                 </p>
               </div>
               <form action="#" className="mt-12 sm:max-w-lg sm:w-full sm:flex">
